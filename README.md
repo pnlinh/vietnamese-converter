@@ -18,7 +18,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Pnlinh\VietnameseConverter\VietnameseConverter;
 
 $output = VietnameseConverter::make()
-							   ->convert('Tôi tên là Ngô Chí Dũng. Người đã tạo ra cái phần mềm này.');
+			       ->convert('Tôi tên là Ngô Chí Dũng. Người đã tạo ra cái phần mềm này.');
 
 echo $output; // Toi ten la Ngo Chi Dung. Nguoi da tao ra cai phan mem nay.
 ```
