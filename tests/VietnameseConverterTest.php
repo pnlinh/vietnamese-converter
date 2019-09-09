@@ -16,7 +16,7 @@ class VietnameseConverterTest extends TestCase
         $this->assertNotNull($vniConversion);
         $this->assertInstanceOf(VnCharsetConversion::class, $vniConversion);
     }
-    
+
     /** @test */
     public function it_can_created()
     {
